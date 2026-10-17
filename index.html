@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XForge Construction | Build • Design • Deliver</title>
+<meta name="description" content="XForge Construction: premium building, interior design and project delivery.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body id="top">
+
+<!-- ================= SCROLL VIDEO STAGE ================= -->
+<video id="v" src="video.mp4" muted playsinline preload="auto"></video>
+<canvas id="f"></canvas>
+<canvas id="c"></canvas>
+<div class="shade" id="shade"></div>
+
+<div id="loader">
+  <b>XFORGE</b>
+  <div class="lb"><i id="lbar"></i></div>
+</div>
+
+<header id="hdr">
+  <a class="logo" href="#top" aria-label="XForge Construction"><img src="logo.png" alt="XForge Construction"></a>
+  <nav class="nav" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#spaces">Spaces</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hright">
+    <a class="btn" href="#contact">Get a Quote</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#spaces">Spaces</a>
+  <a href="#process">Process</a>
+  <a href="#contact">Contact</a>
+  <a class="mcta" href="#contact">Start Your Project</a>
+</div>
+
+<section class="chap" data-s="0" data-e="0.17" data-auto>
+  <small data-scramble>XFORGE CONSTRUCTION</small>
+  <h2 data-split>Build. Design. Deliver.</h2>
+  <i class="line"></i>
+  <p data-fade>Scroll to explore our work.</p>
+</section>
+
+<section class="chap" data-s="0.18" data-e="0.38">
+  <small data-scramble>01 • KITCHEN &amp; DINING</small>
+  <h2 data-split>Crafted Interiors</h2>
+  <i class="line"></i>
+  <p data-fade>Clean lines, quality finishes, and layouts made for real life.</p>
+</section>
+
+<section class="chap" data-s="0.39" data-e="0.55">
+  <small data-scramble>02 • LIVING SPACES</small>
+  <h2 data-split>Open. Bright. Built to Last.</h2>
+  <i class="line"></i>
+  <p data-fade>Stone, wood, and light brought together by careful design.</p>
+</section>
+
+<section class="chap" data-s="0.56" data-e="0.72">
+  <small data-scramble>03 • BEDROOM &amp; BATH</small>
+  <h2 data-split>Every Detail Forged</h2>
+  <i class="line"></i>
+  <p data-fade>From vaulted ceilings to the final fixture.</p>
+</section>
+
+<!-- last text chapter: it animates OUT by 0.86 so the end of the video is clear -->
+<section class="chap" data-s="0.73" data-e="0.86">
+  <small data-scramble>04 • OUTDOORS</small>
+  <h2 data-split>Ready to Build Yours?</h2>
+  <i class="line"></i>
+  <p data-fade>Tell us your idea and we will take it from plan to keys.</p>
+</section>
+
+<a class="final-cta" id="finalCta" href="#contact">Start Your Project</a>
+<div class="cue" id="cue"><span>Keep scrolling</span><i></i></div>
+
+<div id="bar"></div>
+<div class="space"></div>
+
+<!-- ================= MAIN WEBSITE ================= -->
+<main class="site" id="site">
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>BUILD</span><i></i><span>DESIGN</span><i></i><span>DELIVER</span><i></i>
+      <span>BUILD</span><i></i><span>DESIGN</span><i></i><span>DELIVER</span><i></i>
+      <span>BUILD</span><i></i><span>DESIGN</span><i></i><span>DELIVER</span><i></i>
+      <span>BUILD</span><i></i><span>DESIGN</span><i></i><span>DELIVER</span><i></i>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="sec" id="about">
+    <div class="wrap split">
+      <div class="split-img rv">
+        <img src="img-stairs.jpg" alt="Contemporary open-plan interior with a glass staircase" loading="lazy">
+        <div class="float-card">
+          <b>Build</b><b>Design</b><b>Deliver</b>
+        </div>
+      </div>
+      <div class="split-txt">
+        <span class="eyebrow rv">About XForge</span>
+        <h2 class="rv">We don't just build structures. We forge <em>spaces worth living in.</em></h2>
+        <p class="lead rv">XForge Construction takes your idea from the first sketch to the final handover. One team plans it, designs it and builds it, so the finished space looks and feels exactly the way you pictured it.</p>
+        <p class="rv">Strong foundations, clean finishes and honest communication at every stage. That is the standard we hold ourselves to on every project, big or small.</p>
+        <div class="stats rv">
+          <div><strong data-count="120" data-suffix="+">0</strong><span>Projects delivered</span></div>
+          <div><strong data-count="10" data-suffix="+">0</strong><span>Years of experience</span></div>
+          <div><strong data-count="100" data-suffix="%">0</strong><span>Focus on quality</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec sec-alt" id="services">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow rv">What we do</span>
+        <h2 class="rv">Everything your project needs, <em>under one roof.</em></h2>
+      </div>
+      <div class="grid3">
+        <article class="card rv" style="--d:.0s">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg></div>
+          <h3>Residential Construction</h3>
+          <p>Custom homes, duplexes and estates built from the ground up to last for generations.</p>
+          <span class="num">01</span>
+        </article>
+        <article class="card rv" style="--d:.08s">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 17L17 3l4 4L7 21z"/><path d="M7 13l2 2M10 10l2 2M13 7l2 2"/></svg></div>
+          <h3>Architectural Design</h3>
+          <p>Smart plans and detailed drawings that balance beauty, function and budget.</p>
+          <span class="num">02</span>
+        </article>
+        <article class="card rv" style="--d:.16s">
+          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div>
+          <h3>Luxury Interiors</h3>
+          <p>Ceilings, lighting, marble, joinery and finishes that make every room feel premium.</p>
+          <span class="num">03</span>
+        </article>
+        <article class="card rv" style="--d:.0s">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></div>
+          <h3>Renovation &amp; Remodeling</h3>
+          <p>Give an existing space new life, from a single kitchen to a complete makeover.</p>
+          <span class="num">04</span>
+        </article>
+        <article class="card rv" style="--d:.08s">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 15c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2M3 20c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2M8 12V5a2 2 0 0 1 4 0M14 12V5a2 2 0 0 1 4 0"/></svg></div>
+          <h3>Pools &amp; Outdoor Living</h3>
+          <p>Pools, patios, gazebos and landscaping that turn your yard into a retreat.</p>
+          <span class="num">05</span>
+        </article>
+        <article class="card rv" style="--d:.16s">
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4h6v3H9zM9 12h6M9 16h4"/></svg></div>
+          <h3>Project Management</h3>
+          <p>Clear timelines, regular updates and tight cost control from day one to handover.</p>
+          <span class="num">06</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPACES GALLERY -->
+  <section class="sec" id="spaces">
+    <div class="wrap">
+      <div class="head row">
+        <div>
+          <span class="eyebrow rv">Spaces we create</span>
+          <h2 class="rv">Design that feels <em>effortless.</em></h2>
+        </div>
+        <p class="rv head-p">A look at the style, finish and atmosphere we build toward. Tap any image to view it larger.</p>
+      </div>
+      <div class="bento">
+        <figure class="tile t1 rv" data-lb><img src="img-kitchen.jpg" alt="White marble kitchen with island and pendant lights" loading="lazy"><figcaption><small>Interiors</small>Marble Kitchen</figcaption></figure>
+        <figure class="tile t2 rv" style="--d:.08s" data-lb><img src="img-pool.jpg" alt="Modern pool with sun loungers and palms" loading="lazy"><figcaption><small>Outdoor</small>Poolside Retreat</figcaption></figure>
+        <figure class="tile t3 rv" data-lb><img src="img-led.jpg" alt="Living space with layered ceiling and LED lighting" loading="lazy"><figcaption><small>Lighting</small>Layered Ceilings</figcaption></figure>
+        <figure class="tile t4 rv" style="--d:.08s" data-lb><img src="img-stairs.jpg" alt="Open living area with glass staircase" loading="lazy"><figcaption><small>Interiors</small>Open-Plan Living</figcaption></figure>
+        <figure class="tile t5 rv" style="--d:.16s" data-lb><img src="img-lounge.jpg" alt="Bright lounge with floor-to-ceiling windows" loading="lazy"><figcaption><small>Interiors</small>Bright Lounge</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY XFORGE -->
+  <section class="sec sec-alt" id="why">
+    <div class="wrap split rev">
+      <div class="split-txt">
+        <span class="eyebrow rv">Why XForge</span>
+        <h2 class="rv">Built on trust, <em>finished to perfection.</em></h2>
+        <ul class="ticks">
+          <li class="rv"><i></i><div><b>Clear pricing and timelines</b><span>You know the plan, the cost and the schedule before we break ground.</span></div></li>
+          <li class="rv" style="--d:.08s"><i></i><div><b>Premium materials and finishes</b><span>Quality you can see, feel and rely on for years.</span></div></li>
+          <li class="rv" style="--d:.16s"><i></i><div><b>One dedicated team</b><span>Design and construction under one roof, with a single point of contact.</span></div></li>
+          <li class="rv" style="--d:.24s"><i></i><div><b>Checked at every stage</b><span>Inspections along the way, so the handover has no surprises.</span></div></li>
+        </ul>
+      </div>
+      <div class="split-img rv">
+        <img src="img-led.jpg" alt="Spacious living room with marble floors and LED ceiling" loading="lazy">
+        <div class="glow-ring"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="sec" id="process">
+    <div class="wrap">
+      <div class="head center">
+        <span class="eyebrow rv">How we work</span>
+        <h2 class="rv">From idea to keys, <em>in four steps.</em></h2>
+      </div>
+      <ol class="steps">
+        <li class="rv"><span class="sn">01</span><h3>Consultation</h3><p>We listen to your vision, budget and plot, and agree on the goals.</p></li>
+        <li class="rv" style="--d:.08s"><span class="sn">02</span><h3>Design &amp; Plan</h3><p>Concepts, drawings and a clear, costed plan you can approve with confidence.</p></li>
+        <li class="rv" style="--d:.16s"><span class="sn">03</span><h3>Build</h3><p>Skilled crews, quality materials and regular progress updates.</p></li>
+        <li class="rv" style="--d:.24s"><span class="sn">04</span><h3>Deliver</h3><p>Final inspection, a smooth handover and support after you move in.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="sec sec-cta" id="contact">
+    <img class="builder" src="builder.webp" alt="" aria-hidden="true" width="434" height="688">
+    <div class="wrap contact">
+      <div class="contact-txt">
+        <span class="eyebrow rv">Let's talk</span>
+        <h2 class="rv">Ready to build <em>yours?</em></h2>
+        <p class="lead rv">Tell us about your project. We will get back to you quickly to talk through your ideas, timeline and budget.</p>
+        <ul class="info rv">
+          <li><b>Email</b><a class="js-mail" href="#">youremail@example.com</a></li>
+          <li><b>WhatsApp / Phone</b><a class="js-wa" href="#">Add your number</a></li>
+          <li><b>Office</b><span>Add your address here</span></li>
+        </ul>
+      </div>
+      <form class="form rv" id="enquiry" novalidate>
+        <div class="two">
+          <label>Full name<input name="name" type="text" placeholder="Your name" required></label>
+          <label>Phone / WhatsApp<input name="phone" type="tel" placeholder="+000 000 000 0000"></label>
+        </div>
+        <label>Email<input name="email" type="email" placeholder="you@email.com"></label>
+        <label>Project type
+          <select name="type">
+            <option>New build</option>
+            <option>Renovation</option>
+            <option>Interior design</option>
+            <option>Pool &amp; outdoor</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>About your project<textarea name="msg" rows="4" placeholder="Location, size, budget, timeline..."></textarea></label>
+        <button class="btn-primary" type="submit">Send enquiry <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <small class="note" id="formNote"></small>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <div class="wrap fgrid">
+      <div class="fbrand">
+        <a class="logo" href="#top" aria-label="XForge Construction"><img src="logo.png" alt="XForge Construction"></a>
+        <p>Build • Design • Deliver.<br>Premium construction and interiors.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="#about">About</a><a href="#services">Services</a><a href="#spaces">Spaces</a><a href="#process">Process</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a class="js-mail" href="#">youremail@example.com</a>
+        <a class="js-wa" href="#">WhatsApp</a>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TikTok</a>
+      </div>
+    </div>
+    <div class="wrap copy">© <span id="yr"></span> XForge Construction. All rights reserved.</div>
+  </footer>
+</main>
+
+<div class="lightbox" id="lightbox" aria-hidden="true"><img alt=""><button aria-label="Close">&times;</button></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="text-animation.js"></script>
+<script src="main.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
